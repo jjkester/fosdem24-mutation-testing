@@ -1,0 +1,8 @@
+@import url("/node_modules/bootstrap-icons/font/bootstrap-icons.min.css");
+
+.fragment.semi-fade-in {
+    opacity: .5;
+}
+.fragment.semi-fade-in.visible {
+    opacity: 1;
+}
