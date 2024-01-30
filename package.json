@@ -3,8 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "scripts": {
-    "start": "kc serve",
-    "print": "kc print"
+    "start": "kc serve"
   },
   "author": "Jan-Jelle Kester",
   "license": "Apache-2.0",

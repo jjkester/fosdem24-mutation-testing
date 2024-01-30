@@ -4,6 +4,12 @@ Automated testing is part of (almost) every piece of software. But how can you b
 
 This talk uses practical examples and insights from (the development of) [Stryker-Mutator](https://stryker-mutator.io/).
 
+Topics:
+
+- Why we need to understand our tests (and why code coverage is not sufficient)
+- What mutation testing is (with practical examples)
+- How mutation testing got to practical applicability (from infeasible at inception to good framework availability to start using it in your projects now)
+
 https://fosdem.org/2024/schedule/event/fosdem-2024-2486-how-mutation-testing-got-practical/
 
 ## Viewing the presentation
@@ -15,6 +21,6 @@ https://fosdem.org/2024/schedule/event/fosdem-2024-2486-how-mutation-testing-got
 5. Open a browser window and navigate to http://localhost:1500 to view the presentation.
 6. Type `?` to view the available keyboard shortcuts for navigation.
 
-To view this presentation, first install `npm`.
+## PDF version
 
-To start a local server to view the presentation, run `npm install && npm start`. The presentation can be opened in a browser window at `http://localhost:15000`.
+A PDF version of the slides will be made available after the talk.
