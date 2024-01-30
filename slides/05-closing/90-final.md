@@ -1,4 +1,4 @@
-<!-- .slide: data-background="linear-gradient(90deg, rgba(232,75,57,1) 50%, rgba(0,56,101,1) 50%)" style="color: white" -->
+<!-- .slide: data-background-gradient="linear-gradient(90deg, rgba(232,75,57,1) 50%, rgba(0,56,101,1) 50%)" style="color: white" -->
 
 <div class="kc-flex kc-columns kc-vertical-center kc-gap5">
 

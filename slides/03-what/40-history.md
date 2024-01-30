@@ -1,9 +1,13 @@
-### 1979: New type of software test
+<!-- .slide: data-background-image="/img/mutation-analysis-1979.png" data-background-position="top" -->
 
-![Mutation Analysis, 1979](/img/mutation-analysis-1979.png)
+<div class="kc-flex kc-gap5 r-stretch">
+
+### 1979: New type of software test
 
 Acree, Allen & Budd, Timothy & Demillo, Richard & Lipton, Richard & Sayward, Fred. (1979). Mutation Analysis.
 <!-- .element: class="kc-smallest" -->
+
+</div>
 
 ---
 

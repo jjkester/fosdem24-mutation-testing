@@ -1,12 +1,31 @@
 ### Mutant states
 
-- ✅ Killed
-- 👽 Survived
-- 🙈 No coverage <em class="fragment" data-fragment-index="1">&mdash; no tests are reaching the code</em>
-- ⏳ Timeout <em class="fragment" data-fragment-index="1">&mdash; mutation caused an infinite loop</em>
-- 💥 Runtime <em class="fragment" data-fragment-index="1">&mdash; mutation caused an exception</em>
-- 💥 Compile <em class="fragment" data-fragment-index="1">&mdash; mutation resulted in invalid code</em>
-- 🤥 Ignored <!-- .element class="fragment" data-fragment-index="2" -->
+- <!-- .element: class="fragment semi-fade-out" data-fragment-index="1" -->
+  ✅ Killed
+- <!-- .element: class="fragment semi-fade-out" data-fragment-index="1" -->
+  👽 Survived
+- <!-- .element: class="fragment" data-fragment-index="1" -->
+  <span class="fragment semi-fade-out" data-fragment-index="3">
+  🙈 No coverage
+  <em class="fragment" data-fragment-index="2">&mdash; no tests are reaching the code</em>
+  </span>
+- <!-- .element: class="fragment" data-fragment-index="1" -->
+  <span class="fragment semi-fade-out" data-fragment-index="3">
+  ⏳ Timeout
+  <em class="fragment" data-fragment-index="2">&mdash; mutation caused an infinite loop</em>
+  </span>
+- <!-- .element: class="fragment" data-fragment-index="1" -->
+  <span class="fragment semi-fade-out" data-fragment-index="3">
+  💥 Runtime
+  <em class="fragment" data-fragment-index="2">&mdash; mutation caused an exception</em>
+  </span>
+- <!-- .element: class="fragment" data-fragment-index="1" -->
+  <span class="fragment semi-fade-out" data-fragment-index="3">
+  💥 Compile
+  <em class="fragment" data-fragment-index="2">&mdash; mutation resulted in invalid code</em>
+  </span>
+- <!-- .element: class="fragment" data-fragment-index="3" -->
+  🤥 Ignored
 
 ---
 

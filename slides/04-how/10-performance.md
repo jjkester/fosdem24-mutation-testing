@@ -114,20 +114,3 @@ Note:
 
 > This technique tries to avoid the application of mutation operators that are responsible for the most mutants or to select mutation operators that result in mutants that are killed by tests that also kill lots of mutants created by other operators.
 > The idea is that if a test set T<sub>op</sub>, that is adequate for a subset of mutation operators M<sub>op</sub>, also kills a very high percentage of all mutants, then we can select only the operators in M<sub>op</sub>
-
----
-
-![](/img/callisto.png)
-<!-- .element: style="text-align: center" -->
-
----
-
-### Callisto
-
-Selective mutation approach by Info Support's Jan Smits
-
-Uses an initial run of mutation testing to find a trade off between accuracy and run time
-
-Summary: https://research.infosupport.com/publications/callisto-selecting-effective-mutation-operators-for-mutation-testing/ \
-Thesis: https://essay.utwente.nl/89294/
-<!-- .element: class="kc-smaller" -->

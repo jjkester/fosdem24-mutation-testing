@@ -33,9 +33,7 @@ Placing mutations into source code
 
 ---
 
-### Mutant schemata
-
-<div class="fragment">
+#### Mutant schemata
 
 Generate mutants based on source code, but compile once
 
@@ -47,7 +45,5 @@ Generate mutants based on source code, but compile once
 
 Roland H. Untch, A. Jefferson Offutt, and Mary Jean Harrold. 1993. Mutation analysis using mutant schemata. SIGSOFT Softw. Eng. Notes 18, 3 (July 1993), 139–148. DOI: 10.1145/174146.154265.
 <!-- .element: class="kc-smallest" -->
-
-</div>
 
 Note: Relatively new!

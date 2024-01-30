@@ -1,5 +1,5 @@
-<div class="kc-columns kc-gap5">
-<div>
+<div class="kc-flex kc-gap5">
+<div style="flex-shrink: 0">
 
 ### Info Support
 

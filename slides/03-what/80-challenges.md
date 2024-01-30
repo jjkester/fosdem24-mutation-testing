@@ -2,7 +2,7 @@
 
 #### Mutation testing is challenging
 
-* 🐌 Takes _a lot_ time
+* 🐌 Takes _a lot_ of time
 * 🛠️ Requires configuration
 * 👷 Requires tooling support
 
