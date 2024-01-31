@@ -9,8 +9,5 @@
   "license": "Apache-2.0",
   "devDependencies": {
     "@infosupport/kc-cli": "^4.15.3"
-  },
-  "dependencies": {
-    "bootstrap-icons": "^1.11.1"
   }
 }
