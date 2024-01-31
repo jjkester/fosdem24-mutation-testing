@@ -1,4 +1,4 @@
-### Mutation levels
+### Mutation levels 🦥
 
 Selective mutation approach by Info Support's Jan Smits
 
@@ -47,7 +47,7 @@ Implemented by a project group of CS master students from the University of Twen
 
 ---
 
-### Further reducing test runs
+### Further reducing test runs 🧐
 
 Analyze multiple mutants per test run
 

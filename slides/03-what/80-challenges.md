@@ -6,4 +6,4 @@
 * 🛠️ Requires configuration
 * 👷 Requires tooling support
 
-For a long time, mutation testing was simply **not feasible**
+For a long time, mutation testing was simply **not feasible** and/or **not easy**

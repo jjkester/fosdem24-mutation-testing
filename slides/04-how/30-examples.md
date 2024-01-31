@@ -1,4 +1,4 @@
-### Coverage analysis
+### Coverage analysis 🧐
 
 **Test coverage**: which code is hit by which tests
 
@@ -6,7 +6,7 @@
 
 ---
 
-### Incremental analysis
+### Incremental analysis 🦥
 
 Re-use results from a previous run
 

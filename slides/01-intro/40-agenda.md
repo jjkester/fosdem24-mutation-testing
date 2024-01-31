@@ -7,5 +7,5 @@
 - <!-- .element: class="fragment custom semi-fade-in-then-out" -->
   **how** mutation testing got to practical applicability
 
-**Plus:** start applying mutation testing in your projects
+... to convince **you** to use mutation testing in your projects
 <!-- .element: class="fragment" -->

@@ -33,7 +33,7 @@ Placing mutations into source code
 
 ---
 
-#### Mutant schemata
+#### Mutant schemata 🏎
 
 Generate mutants based on source code, but compile once
 
