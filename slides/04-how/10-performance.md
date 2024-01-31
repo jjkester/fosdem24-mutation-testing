@@ -40,22 +40,22 @@ and Software, vol. 157, Jul. 2019. DOI: 10.1016/j.jss.2019.07.100.
 
 <div>
 
-- 🦥 Random mutation <!-- .element: class="fragment fade-in-then-semi-out" -->
-- 🧐 Higher order mutation <!-- .element: class="fragment fade-in-then-semi-out" -->
-- 🏎️ Parallel execution <!-- .element: class="fragment fade-in-then-semi-out" -->
-- 🦥 Data-flow analysis <!-- .element: class="fragment fade-in-then-semi-out" -->
-- 🦥 Control-flow analysis <!-- .element: class="fragment fade-in-then-semi-out" -->
-- 🧐 Minimization and prioritization of test sets <!-- .element: class="fragment fade-in-then-semi-out" -->
+- 🦥 Random mutation
+- 🧐 Higher order mutation
+- 🏎️ Parallel execution
+- 🦥 Data-flow analysis
+- 🦥 Control-flow analysis
+- 🧐 Minimization and prioritization of test sets
 
 </div>
 <div>
 
-- 🦥 Constrained mutation <!-- .element: class="fragment fade-in-then-semi-out" -->
-- 🧐 Evolutionary algorithms <!-- .element: class="fragment fade-in-then-semi-out" -->
-- 🧐 Model-based mutation <!-- .element: class="fragment fade-in-then-semi-out" -->
-- 🧐 State-based analysis <!-- .element: class="fragment fade-in-then-semi-out" -->
-- 🦥 Minimal mutation <!-- .element: class="fragment fade-in-then-semi-out" -->
-- 🦥 Selective mutation <!-- .element: class="fragment fade-in-then-semi-out" -->
+- 🦥 Constrained mutation
+- 🧐 Evolutionary algorithms
+- 🧐 Model-based mutation
+- 🧐 State-based analysis
+- 🦥 Minimal mutation
+- 🦥 Selective mutation
 
 </div>
 </div>
