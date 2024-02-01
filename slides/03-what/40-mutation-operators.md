@@ -4,7 +4,7 @@ Transform operations in source code to one or more mutated versions of that sour
 
 ---
 
-##### Common mutations
+#### Common mutations
 
 | Original       | Mutated                       |
 |----------------|-------------------------------|
@@ -18,4 +18,4 @@ Transform operations in source code to one or more mutated versions of that sour
 | `a > b`        | `true`                        |
 | `{ ... }`      | `{}`                          |
 
-<!-- .element class="kc-smaller" -->
+<!-- .element class="small" -->

@@ -4,7 +4,7 @@ Placing mutations into source code
 
 ---
 
-<div class="kc-columns kc-gap5">
+<div class="r-hstack items-start items-gap">
 
 <div class="fragment semi-fade-out" data-fragment-index="1">
 
@@ -44,6 +44,6 @@ Generate mutants based on source code, but compile once
 * 🟡 Complicated (but manageable)
 
 Roland H. Untch, A. Jefferson Offutt, and Mary Jean Harrold. 1993. Mutation analysis using mutant schemata. SIGSOFT Softw. Eng. Notes 18, 3 (July 1993), 139–148. DOI: 10.1145/174146.154265.
-<!-- .element: class="kc-smallest" -->
+<!-- .element: class="attribution" -->
 
 Note: Relatively new!

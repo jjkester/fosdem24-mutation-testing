@@ -23,4 +23,4 @@ https://fosdem.org/2024/schedule/event/fosdem-2024-2486-how-mutation-testing-got
 
 ## PDF version
 
-A PDF version of the slides will be made available after the talk.
+A PDF version of the slides will be made available as release after the talk.

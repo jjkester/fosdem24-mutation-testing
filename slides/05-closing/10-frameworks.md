@@ -17,7 +17,7 @@ We have production-ready tooling
 
 ---
 
-##### Mutation testing for your language of choice
+#### Mutation testing for your language of choice
 
 | Language                | Framework    |
 |-------------------------|:-------------|
@@ -32,6 +32,7 @@ We have production-ready tooling
 | Go                      | Gremlins     |
 | Swift                   | Muter        |
 
-<!-- .element class="kc-smaller" -->
+<!-- .element class="small" -->
 
 More options available: https://github.com/theofidry/awesome-mutation-testing (or search `${lang} mutation testing`)
+<!-- .element class="small" -->

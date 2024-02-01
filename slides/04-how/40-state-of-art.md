@@ -10,9 +10,9 @@ Mutation score not necessarily comparable!
 
 ---
 
-#### Callisto
+### Mutation levels: Callisto
 
-<div class="kc-flex kc-columns kc-vertical-center kc-gap5">
+<div class="r-hstack items-gap items-equal">
 <div>
 
 - Full run of mutation testing as input
@@ -27,13 +27,13 @@ Mutation score not necessarily comparable!
 Smits, J. P. G. (2022). Callisto-Selecting Effective Mutation Operators for Mutation Testing (Master's thesis, University of Twente).
 [Summary @ research.infosupport.com](https://research.infosupport.com/publications/callisto-selecting-effective-mutation-operators-for-mutation-testing/),
 [Thesis @ utwente.nl](https://essay.utwente.nl/89294/).
-<!-- .element: class="kc-smaller" -->
+<!-- .element: class="attribution" -->
 
 Note: Only executing block statement mutations results in 86% less executions with an effectiveness of 63%
 
 ---
 
-#### Project Xavier
+### Mutation levels: project Xavier
 
 Mutation levels implementation in Stryker JS
 

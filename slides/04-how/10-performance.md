@@ -5,14 +5,20 @@
 For every mutation we run the whole test suite once.
 <!-- .element: class="fragment semi-fade-out" data-fragment-index="1" -->
 
-**T<sub>total</sub>** = T<sub>test</sub> &times; N<sub>mutants</sub>
-<!-- .element class="fragment semi-fade-out" data-fragment-index="1" style="text-align: center" -->
+`$$
+\left.t_m = |T| \Bigm | m \in M\right. \\
+t_{total} = |T| \times |M|
+$$`
+<!-- .element class="fragment semi-fade-out" data-fragment-index="1" -->
 
 We need to be smarter!
 <!-- .element class="fragment" data-fragment-index="1" -->
 
-**T<sub>total</sub>** < T<sub>test</sub> &times; N<sub>mutants</sub>
-<!-- .element class="fragment" data-fragment-index="1" style="text-align: center" -->
+`$$
+\left.t_m < |T| \Bigm | m \in M\right. \\
+t_{total} < |T| \times |M|
+$$`
+<!-- .element class="fragment" data-fragment-index="1" -->
 
 ---
 
@@ -30,13 +36,13 @@ A. Pizzoleto, F. Ferrari, J. Offutt, L. Fernandes, and M. Ribeiro, “A systemat
 review of techniques and metrics to reduce the cost of mutation testing,” Journal of Systems
 and Software, vol. 157, Jul. 2019. DOI: 10.1016/j.jss.2019.07.100.
 
-<!-- .element class="kc-smallest" -->
+<!-- .element class="attribution" -->
 
 ---
 
 ### Common techniques
 
-<div class="kc-columns kc-gap5">
+<div class="r-hstack items-equal items-start items-gap">
 
 <div>
 

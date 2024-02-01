@@ -1,4 +1,4 @@
-<!-- .slide: class="is-fancy2" -->
+<!-- .slide: data-corporate-style="fancy2" -->
 
 #### Mutation testing is challenging
 

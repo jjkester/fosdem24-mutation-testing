@@ -1,6 +1,6 @@
 <!-- .slide: data-background="#e84b39" -->
 
-<div class="kc-flex kc-columns kc-vertical-center kc-gap5">
+<div class="r-hstack items-stretch items-center items-equal items-gap">
 
 ![stryker-man](/img/stryker-man.svg) <!-- .element: width="100%" -->
 

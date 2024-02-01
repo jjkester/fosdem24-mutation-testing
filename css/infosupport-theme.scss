@@ -1,0 +1,99 @@
+// Import theme prerequisites
+@import "reveal.js/css/theme/template/mixins";
+@import "reveal.js/css/theme/template/settings";
+
+// Custom definitions
+@import "fonts.scss";
+
+// Variable customizations
+$backgroundColor: white;
+$mainFont: 'Px Grotesk', 'Arial', sans-serif;
+//$mainFontSize: 32px;
+$mainColor: #02315a;
+$headingFont: $mainFont;
+$headingTextTransform: none;
+$headingColor: $mainColor;
+$headingFontWeight: bold;
+$codeFont: 'Jetbrains Mono', 'Menlo', 'Consolas', monospace;
+$linkColor: #0d9ddb;
+$linkColorHover: #096993;
+$selectionBackgroundColor: rgba(0, 0, 0, 0.99);
+
+// Generate theme based on variables
+@import "reveal.js/css/theme/template/theme";
+
+// Customizations
+.reveal {
+  .slides .align-left, &.align-left .slides {
+    text-align: left;
+
+    h1, h2, h3, h4, h5, h6 {
+      text-align: left;
+    }
+  }
+
+  @import "fragments";
+  @import "layout";
+
+  .slides {
+    a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      @import "corporate-style";
+      @import "generic";
+
+      ol > li::marker {
+        font-family: "Px Grotesk Screen", $mainFont;
+        color: #13a2dd;
+      }
+
+      ul > li::marker {
+        content: "\e902";
+        color: #35b8ee;
+        font-family: "icomoon";
+      }
+
+      ol, ul {
+        position: relative;
+        margin: 10px 0 0 1em;
+        padding: 0;
+      }
+
+      ol, ul {
+        > li {
+          ol, ul {
+            font-size: .8em;
+            margin-bottom: .2em * 1.25;
+          }
+        }
+      }
+
+      pre, pre > code {
+        border-radius: .25em;
+      }
+
+      *:not(pre) > code {
+        font-size: .8em;
+        line-height: 1;
+        padding: .25em;
+        border-radius: .25em;
+        color: #24292e;
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
+      }
+
+      &.has-dark-background {
+        &, h1, h2, h3, h4, h5, h6, a, a:hover {
+          color: white;
+        }
+
+        @import "highlight.js/styles/github-dark-dimmed.min";
+      }
+
+      &:not(.has-dark-background) {
+        @import "highlight.js/styles/github.min";
+      }
+    }
+  }
+}

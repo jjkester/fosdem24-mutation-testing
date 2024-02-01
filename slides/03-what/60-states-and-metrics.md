@@ -35,32 +35,9 @@
 
 Is the code tested adequately?
 
-<div class="kc-flex kc-vertical-center kc-gap1" style="width: fit-content; margin: auto">
+&nbsp;
 
-**Mutation score** =
-
-<div>
-
-M<sub>detected</sub>  
-<!-- .element: style="text-align: center" -->
-
-<hr>
-
-M<sub>valid</sub>
-
-<!-- .element: style="text-align: center" -->
-
-</div>
-
-&times; 100%
-
-</div>
-
-- M<sub>detected</sub> = M<sub>killed</sub> + M<sub>timeout</sub> = ✅ + ⏳
-- M<sub>undetected</sub> = M<sub>survived</sub> + M<sub>no coverage</sub> = 👽 + 🙈
-- M<sub>valid</sub> = M<sub>detected</sub> + M<sub>undetected</sub> = ✅ + ⏳ + 👽 + 🙈
-
-<!-- .element: class="kc-smaller" -->
+`$$ mutationScore(M) = { M_✅ + M_⏳ \over M_✅ + M_⏳ + M_👽 + M_🙈 } \times 100\% $$`
 
 ---
 
@@ -70,37 +47,14 @@ M<sub>valid</sub>
 
 Is the code _that is tested_ being tested adequately?
 
-<div class="kc-flex kc-vertical-center kc-gap1" style="width: fit-content; margin: auto">
+&nbsp;
 
-**Mutation score on covered code** =
-
-<div>
-
-M<sub>detected</sub>
-<!-- .element: style="text-align: center" -->
-
-<hr>
-
-M<sub>covered</sub>
-
-<!-- .element: style="text-align: center" -->
-
-</div>
-
-&times; 100%
-
-</div>
-
-- M<sub>detected</sub> = M<sub>killed</sub> + M<sub>timeout</sub> = ✅ + ⏳
-- M<sub>undetected</sub> = M<sub>survived</sub> + M<sub>no coverage</sub> = 👽 + 🙈
-- M<sub>covered</sub> = M<sub>detected</sub> + M<sub>survived</sub> = ✅ + ⏳ + 👽
-
-<!-- .element: class="kc-smaller" -->
+`$$ coveredMutationScore(M) = { M_✅ + M_⏳ \over M_✅ + M_⏳ + M_👽 } \times 100\% $$`
 
 ---
 
-<!-- .slide: class="is-fancy1" -->
+<!-- .slide: data-corporate-style="fancy2" -->
 
-#### Not all mutants can be killed
+### Not all mutants can be killed
 
 While it is easy to _reach_ all your code, it is not possible to write a test case for every possible internal change of your program

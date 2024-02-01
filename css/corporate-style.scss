@@ -1,0 +1,34 @@
+&.heading-triangle {
+  h1, h2, h3, h4 {
+    &:first-of-type::before {
+      content: "";
+      border-top: 1.5rem solid rgb(13, 157, 219);
+      border-right: 1.5rem solid transparent;
+      margin-left: -1.5rem;
+      position: relative;
+      top: (1em * $headingLineHeight - 1em) * 2;
+      left: -0.5rem;
+    }
+  }
+}
+
+&.heading-caret {
+  h1, h2, h3, h4 {
+    &:first-of-type::before {
+      content: "»";
+      position: absolute;
+      top: (-1em * $headingLineHeight);
+      left: 0;
+      font-family: "Px Grotesk Screen", $headingFont;
+    }
+  }
+}
+
+&.heading-pixelated {
+  h1, h2, h3, h4 {
+    > strong {
+      font-family: "Px Grotesk Screen", $headingFont;
+      font-weight: $headingFontWeight;
+    }
+  }
+}
