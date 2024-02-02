@@ -12,7 +12,7 @@ Mutation score not necessarily comparable!
 
 ### Mutation levels: Callisto
 
-<div class="r-hstack items-gap items-equal">
+<div class="r-hstack items-gap items-equal r-stretch">
 <div>
 
 - Full run of mutation testing as input

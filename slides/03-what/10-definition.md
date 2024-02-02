@@ -1,5 +1,6 @@
 ### Mutation testing
 
-Introducing changes and checking whether the test suite catches those changes
+Introducing **changes**,\
+then checking whether the test suite **fails** to detect those changes
 
-White-box testing
+- White-box testing

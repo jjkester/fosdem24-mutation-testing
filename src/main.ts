@@ -20,7 +20,7 @@ let deck = new Reveal({
     slideNumber: 'c',
     hashOneBasedIndex: true,
     hash: true,
-    pdfSeparateFragments: false,
+    pdfSeparateFragments: true,
     plugins: [ RevealMarkdown, RevealHighlight, RevealMath.KaTeX, RevealNotes, PixelateHeadings, CorporateStyle ]
 })
 deck.initialize();
