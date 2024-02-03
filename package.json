@@ -14,6 +14,7 @@
   "devDependencies": {
     "@infosupport/kc-cli": "^4.15.3",
     "@types/reveal.js": "^4.4.8",
+    "katex": "^0.16.9",
     "reveal.js": "^5.0.4",
     "sass": "^1.70.0",
     "typescript": "^5.2.2",

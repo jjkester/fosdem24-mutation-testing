@@ -21,6 +21,9 @@ let deck = new Reveal({
     hashOneBasedIndex: true,
     hash: true,
     pdfSeparateFragments: true,
-    plugins: [ RevealMarkdown, RevealHighlight, RevealMath.KaTeX, RevealNotes, PixelateHeadings, CorporateStyle ]
+    plugins: [ RevealMarkdown, RevealHighlight, RevealMath.KaTeX, RevealNotes, PixelateHeadings, CorporateStyle ],
+    katex: {
+        local: 'node_modules/katex',
+    },
 })
 deck.initialize();
