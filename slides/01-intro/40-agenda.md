@@ -1,4 +1,4 @@
-### In the next 20 minutes
+### In the next 25 minutes
 
 - <!-- .element: class="fragment custom semi-fade-out" data-fragment-index="1" -->
   **Why** we need to understand our tests
