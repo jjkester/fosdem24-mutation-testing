@@ -14,10 +14,7 @@ $$`
 We need to be smarter!
 <!-- .element class="fragment" data-fragment-index="1" -->
 
-`$$
-\left.t_m < |T| \Bigm | m \in M\right. \\
-t_{total} < |T| \times |M|
-$$`
+`$$ t_{total} < |T| \times |M| $$`
 <!-- .element class="fragment" data-fragment-index="1" -->
 
 ---
