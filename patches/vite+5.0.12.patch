@@ -1,0 +1,12 @@
+diff --git a/node_modules/vite/dist/node/chunks/dep-9A4-l-43.js b/node_modules/vite/dist/node/chunks/dep-9A4-l-43.js
+index 990f7c7..5dbce30 100644
+--- a/node_modules/vite/dist/node/chunks/dep-9A4-l-43.js
++++ b/node_modules/vite/dist/node/chunks/dep-9A4-l-43.js
+@@ -38746,6 +38746,7 @@ const assetAttrsConfig = {
+     img: ['src', 'srcset'],
+     image: ['xlink:href', 'href'],
+     use: ['xlink:href', 'href'],
++    section: ['data-markdown'],
+ };
+ // Some `<link rel>` elements should not be inlined in build. Excluding:
+ // - `shortcut`                     : only valid for IE <9, use `icon`

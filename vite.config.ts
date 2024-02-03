@@ -9,6 +9,9 @@ export default defineConfig({
         }
     },
     assetsInclude: ['**/*.md'],
+    build: {
+        assetsInlineLimit: 0,
+    },
     server: {
         port: 15000,
     },
