@@ -52,7 +52,7 @@ $selectionBackgroundColor: rgba(0, 0, 0, 0.99);
       ul > li::marker {
         content: "\e902";
         color: #35b8ee;
-        font-family: "icomoon";
+        font-family: "icomoon", "Px Grotesk Screen", $mainFont;
       }
 
       ol, ul {
@@ -73,6 +73,10 @@ $selectionBackgroundColor: rgba(0, 0, 0, 0.99);
       pre, pre > code {
         border-radius: .25em;
       }
+      code:has(.katex) {
+        box-shadow: none;
+        border-radius: 0;
+      }
 
       *:not(pre) > code {
         font-size: .8em;
@@ -80,7 +84,7 @@ $selectionBackgroundColor: rgba(0, 0, 0, 0.99);
         padding: .25em;
         border-radius: .25em;
         color: #24292e;
-        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
       }
 
       &.has-dark-background {

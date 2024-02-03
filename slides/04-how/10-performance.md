@@ -7,14 +7,14 @@ For every mutation we run the whole test suite once.
 
 `$$
 \left.t_m = |T| \Bigm | m \in M\right. \\
-t_{total} = |T| \times |M|
+t_M = \sum_{m \in M} |T| = |T| \times |M|
 $$`
 <!-- .element class="fragment semi-fade-out" data-fragment-index="1" -->
 
-We need to be smarter!
+We need to be smarter: `$ t_M < |T| \times |M| $`!
 <!-- .element class="fragment" data-fragment-index="1" -->
 
-`$$ t_{total} < |T| \times |M| $$`
+
 <!-- .element class="fragment" data-fragment-index="1" -->
 
 ---
