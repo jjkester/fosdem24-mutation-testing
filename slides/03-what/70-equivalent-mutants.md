@@ -12,7 +12,7 @@ function calculateInLoop() {
 }
 ```
 
-```js
+```js []
 expect(calculateInLoop).to.equal(45); /* ✅ Passes */
 ```
 
@@ -32,6 +32,6 @@ function calculateInLoop() {
 }
 ```
 
-```js
+```js []
 expect(calculateInLoop).to.equal(45); /* ✅ Passes */
 ```
