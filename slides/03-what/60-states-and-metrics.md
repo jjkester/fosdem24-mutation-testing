@@ -35,9 +35,12 @@
 
 Is the code tested adequately?
 
-&nbsp;
-
-`$$ mutationScore(M) = { M_✅ + M_⏳ \over M_✅ + M_⏳ + M_👽 + M_🙈 } \times 100\% $$`
+`$$
+\begin{align*}
+M &= \text{ set of mutants } \{m_1, ..., m_n\} \\
+mutationScore(M) &= { M_✅ + M_⏳ \over M_✅ + M_⏳ + M_👽 + M_🙈 } \times 100\%
+\end{align*}
+$$`
 
 ---
 
@@ -49,7 +52,12 @@ Is the code _that is tested_ being tested adequately?
 
 &nbsp;
 
-`$$ coveredMutationScore(M) = { M_✅ + M_⏳ \over M_✅ + M_⏳ + M_👽 } \times 100\% $$`
+`$$
+\begin{align*}
+M &= \text{ set of mutants } \{m_1, ..., m_n\} \\
+coveredMutationScore(M) &= { M_✅ + M_⏳ \over M_✅ + M_⏳ + M_👽 } \times 100\%
+\end{align*}
+$$`
 
 ---
 

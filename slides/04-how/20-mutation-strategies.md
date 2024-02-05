@@ -31,6 +31,8 @@ Placing mutations into source code
 
 </div>
 
+Note: How can we do better? 🧦
+
 ---
 
 #### Mutant schemata 🏎

@@ -7,6 +7,9 @@ Selective mutation approach by Info Support's Jan Smits
   - Pull request / nightly build
 
 Mutation score not necessarily comparable!
+<!-- .element: class="fragment" -->
+
+Note: **Before fragment**: What could be a downside? 🧦
 
 ---
 

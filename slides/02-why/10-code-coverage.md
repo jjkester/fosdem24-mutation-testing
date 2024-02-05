@@ -4,7 +4,7 @@
 Source: https://www.sonarsource.com/products/sonarqube/ (2024-01-28)
 <!-- .element: class="attribution" -->
 
-Note: Point out "coverage". Is this good?
+Note: Point out "coverage". Is this good? 🧦
 
 ---
 

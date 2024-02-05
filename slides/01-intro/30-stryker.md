@@ -13,3 +13,5 @@ stryker-mutator.io
 
 </div>
 </div>
+
+Note: Who knows Stryker already? 🧦
